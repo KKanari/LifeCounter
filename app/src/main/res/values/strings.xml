@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">M:tG Life Counter</string>
+    <string name="memo_allclear">全消去</string>
+    <string name="menu_history">ライフ履歴</string>
+    <string name="menu_memo">メモ</string>
+    <string name="menu_dice">ダイス</string>
+    <string name="menu_coin">コイン</string>
+    <string name="menu_manual">マニュアル</string>
+    <string name="menu_reset">リセット</string>
+    <string name="menu_option">オプション</string>
+    <string name="main_resetcheck">リセットの確認</string>
+    <string name="main_resetmessage">カウンターをリセットしてもよろしいですか？</string>
+    <string name="main_reset">リセットしました</string>
+    <string name="main_backTitle">終了の確認</string>
+    <string name="main_backMessage">終了しますか？</string>
+    <string name="main_backYes">はい</string>
+    <string name="main_backNo">いいえ</string>
+
+    <string name="history_iv">-</string>
+
+    <string name="memo_accheck">全消去の確認</string>
+    <string name="memo_acmessage">メモを消去してもよろしいですか？</string>
+    <string name="memo_acyes">はい</string>
+    <string name="memo_acno">いいえ</string>
+    <string name="memo_acdelete">消去しました</string>
+
+    <string name="coin_select">コインを選択してください</string>
+
+    <string name="manual_1">黒：ライフカウンター\n紫：毒カウンター\n黄：統率者ダメージ\n
+        ＋：カウンターを増加\n－：カウンターを減少\nリセットはメニューボタンから行えます。</string>
+    <string name="manual_2">ライフの変動の履歴が確認できます。\n履歴が増えてくるとスクロールできるようになります。</string>
+    <string name="manual_3">メモを記録しておくことができます。\n全消去ボタンでメモを削除することができ、
+        またメイン画面のリセットボタンでも消去することができます。</string>
+    <string name="manual_4">STOPボタンを押すとダイスが止まります。\nその後REROLLボタンを押すと再度ダイスが回り始めます。</string>
+    <string name="manual_5">表か裏どちらかのコインを選択した後にFLIPボタンを押すとコインが投げられ、
+        結果に応じて「Win」または「Lose」が表示されます。</string>
+    <string name="prev">前</string>
+    <string name="next">次</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8650155353572154/6264425226</string>
+
+    <string name="setting_backgroundcolor">■背景色</string>
+    <string name="setting_lettercolor">■文字色</string>
+    <string name="setting_lifecountercolor">◆ライフカウンター</string>
+    <string name="setting_poisoncountercolor">◆毒カウンター</string>
+    <string name="setting_generalcolor">◆統率者ダメージ</string>
+    <string name="setting_letterposition">■履歴の文字揃え</string>
+    <string name="setting_initialize">初期設定</string>
+
+    <string name="setting_confirmcheck">色の確定</string>
+    <string name="setting_confirmmessage">この色を設定してよろしいですか？</string>
+    <string name="setting_confirmyes">はい</string>
+    <string name="setting_confirmno">いいえ</string>
+
+    <string name="setting_initializecheck">設定の初期化</string>
+    <string name="setting_initializemessage">設定を初期化してよろしいですか？</string>
+    <string name="setting_initializeyes">はい</string>
+    <string name="setting_initializeno">いいえ</string>
+</resources>

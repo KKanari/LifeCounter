@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:id="@+id/rlCoinBackground">
+
+    <Button
+        android:id="@+id/buttonFlip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="clickFlip"
+        android:text="Flip"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/imgHeads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_toStartOf="@+id/buttonFlip"
+        android:onClick="clickHeads"/>
+
+    <ImageView
+        android:id="@+id/imgTails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgHeads"
+        android:layout_toEndOf="@+id/buttonFlip"
+        android:onClick="clickTails"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

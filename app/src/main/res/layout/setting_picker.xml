@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:id="@+id/allLayout">
+
+    <ImageView
+        android:id="@+id/ivHue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ivPreview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/ivPreview"
+        android:layout_alignStart="@+id/ivPreview"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ivSaturation"
+        android:layout_below="@+id/ivHue"
+        android:layout_alignLeft="@+id/ivHue"
+        android:layout_alignStart="@+id/ivHue"
+        android:layout_alignRight="@+id/ivHue"
+        android:layout_alignEnd="@+id/ivHue"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/ivValue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ivSaturation"
+        android:layout_alignLeft="@+id/ivSaturation"
+        android:layout_alignStart="@+id/ivSaturation"
+        android:layout_alignRight="@+id/ivSaturation"
+        android:layout_alignEnd="@+id/ivSaturation"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ivPreview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border"/>
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/ivPreviewFrame"
+        android:background="@drawable/border"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="9dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="確　定"
+        android:id="@+id/btnConf"
+        android:layout_above="@+id/ivHue"
+        android:layout_alignRight="@+id/ivHue"
+        android:layout_alignEnd="@+id/ivHue"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:onClick="onConfirm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/ivPreviewFrame"
+        android:layout_toRightOf="@+id/ivPreviewFrame"
+        android:layout_toEndOf="@+id/ivPreviewFrame"
+        android:textSize="24dp"/>
+</RelativeLayout>

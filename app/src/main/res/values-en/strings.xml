@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M:tG Life Counter</string>
+    <string name="memo_allclear">All Clear</string>
+    <string name="menu_history">History</string>
+    <string name="menu_memo">Memo</string>
+    <string name="menu_dice">Dice</string>
+    <string name="menu_coin">Coin</string>
+    <string name="menu_manual">Manual</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_option">Option</string>
+    <string name="main_resetcheck">Reset Counter</string>
+    <string name="main_resetmessage">Are you sure you want to reset counters？</string>
+    <string name="main_reset">Reseted</string>
+    <string name="main_backTitle">Confirm</string>
+    <string name="main_backMessage">Are you sure you want to clese apprication</string>
+    <string name="main_backYes">Yes</string>
+    <string name="main_backNo">No</string>
+
+    <string name="history_iv">-</string>
+
+    <string name="memo_accheck">All Clear</string>
+    <string name="memo_acmessage">Are you sure you want to delete this memo?</string>
+    <string name="memo_acyes">Yes</string>
+    <string name="memo_acno">No</string>
+    <string name="memo_acdelete">Deleted</string>
+
+    <string name="coin_select">Please select either coin</string>
+
+    <string name="manual_1">Black：Life Counter\nPurple：Poison Counter\nYellow：General Damage
+        \n+：Increase Counter\n-：Decrease Counter\nReset Button is in Menu</string>
+    <string name="manual_2">You can confirm History\nWhen the increase Row, Scroll Bar appears</string>
+    <string name="manual_3">You can conserve memo\nIf you want to delete memo,
+        please click "ALL CLEAR" or "RESERT" in Main</string>
+    <string name="manual_4">Dice is stopped by clicking "STOP"\nAnd dice start rolling by clicking "REROLL"</string>
+    <string name="manual_5">Clicking "FLIP" after selecting coin, "Win" or "Lose" appear depending on result</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+
+    <string name="setting_backgroundcolor">■Background Color</string>
+    <string name="setting_lettercolor">■Letter Color</string>
+    <string name="setting_lifecountercolor">◆Life Counter</string>
+    <string name="setting_poisoncountercolor">◆Poison Counter</string>
+    <string name="setting_generalcolor">◆General Damage</string>
+    <string name="setting_letterposition">■History Letter Position</string>
+    <string name="setting_initialize">Initialize</string>
+
+    <string name="setting_confirmcheck">Confirm Color</string>
+    <string name="setting_confirmmessage">Are you sure you want to set this color？</string>
+    <string name="setting_confirmyes">Yes</string>
+    <string name="setting_confirmno">No</string>
+
+    <string name="setting_initializecheck">Initialize Settings</string>
+    <string name="setting_initializemessage">Are you sure you want to initialize settings？</string>
+    <string name="setting_initializeyes">Yes</string>
+    <string name="setting_initializeno">No</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8650155353572154/6264425226</string>
+    <string name="admob_unit_id">ca-app-pub-8650155353572154/6264425226</string>
+
+    <string-array name="entries_background">
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="entryvalues_background">
+        <item>GREEN</item>
+        <item>BLUE</item>
+    </string-array>
+</resources>

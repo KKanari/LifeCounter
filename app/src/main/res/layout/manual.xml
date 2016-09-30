@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:id="@+id/rlManualBackground">
+
+    <ImageView
+        android:id="@+id/imgManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgManual"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@+id/buttonNext"
+        android:onClick="clickBack"
+        android:text="@string/prev"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgManual"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:onClick="clickNext"
+        android:text="@string/next"/>
+
+    <TextView
+        android:id="@+id/txtManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonBack"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
